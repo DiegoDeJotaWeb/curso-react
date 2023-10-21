@@ -13,7 +13,11 @@ export const Container = styled.div `
         row-gap: 4rem;
     }
     li{
-        
+        display:flex;
+        flex-direction:column;
+    }
+    img{
+        width:180px;
     }
 
     
